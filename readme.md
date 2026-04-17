@@ -238,6 +238,7 @@ Tras ejecutar estos comandos, `docker compose up -d` funcionó correctamente.
 
 ### 7.3 Proxy inverso — cabecera X-Served-By
 
+![](./readme/proxy-cache-7.png)
 ![](./readme/proxy-cache-1.png)
 En la captura se pueden ver las peticiones en 'Transfered: cached' y a la derecha el X-Server-By: nginx-proxy
 
