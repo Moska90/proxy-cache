@@ -232,13 +232,13 @@ Tras ejecutar estos comandos, `docker compose up -d` funcionó correctamente.
 
 ### 7.2 Sitio web funcionando en el navegador
 
-![[./readme/proxy-cache-4.png]]
+![](./readme/proxy-cache-4.png)
 
 ---
 
 ### 7.3 Proxy inverso — cabecera X-Served-By
 
-![[./readme/proxy-cache-1.png]]
+![](./readme/proxy-cache-1.png)
 En la captura se pueden ver las peticiones en 'Transfered: cached' y a la derecha el X-Server-By: nginx-proxy
 
 ---
@@ -246,15 +246,15 @@ En la captura se pueden ver las peticiones en 'Transfered: cached' y a la derech
 ### 7.4 Balanceo de carga — cabecera X-Backend alternando
 
 
-![[./readme/proxy-cache-3.png]]
-![[./readme/proxy-cache-2.png]]
+![](./readme/proxy-cache-3.png)
+![](./readme/proxy-cache-2.png)
 En estas capturas podemos ver que en una de las peticiones al recargar pagina cambia la ip asignada al X-Backend.
 
 ---
 
 ### 7.5 Logs de nginx mostrando peticiones distribuidas
 
-![[./readme/proxy-cache-6.png]]
+![](./readme/proxy-cache-6.png)
 
 ---
 
