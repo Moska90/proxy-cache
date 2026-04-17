@@ -226,7 +226,7 @@ Tras ejecutar estos comandos, `docker compose up -d` funcionó correctamente.
 
 ### 7.1 Contenedores en ejecución
 
-![[./readme/proxy-cache-5.png]]
+![](./readme/proxy-cache-5.png)
 
 ---
 
